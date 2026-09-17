@@ -6,8 +6,8 @@ class Program
     {
         Random randomNumber = new Random();
         int number = randomNumber.Next(1, 101);
-        int num = 0;
-        while (num != 1)
+        int num = -1;
+        while (num != 0)
         {
             Console.Write("What is your guess? ");
             String gNumber = Console.ReadLine();
@@ -23,7 +23,7 @@ class Program
             else
             {
                 Console.Write("You guessed it!");
-                num = 1;
+                num = 0;
             }
         }
     }
