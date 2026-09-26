@@ -44,9 +44,6 @@ public class Entry
             _i++;
         }
     }
-        
-        List <string> entries = new List<string>();
-    public string file = "";
     public void DisplayJournalEntries(List<string> entries)
     {
         _i = 0;
